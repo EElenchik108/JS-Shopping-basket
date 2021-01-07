@@ -1,0 +1,155 @@
+html, body {
+	width: 100%;
+	height: 100vh;
+	scroll-behavior: smooth; 
+	background: url(../images/3.jpg);
+	background-size: 100%;
+	box-sizing: border-box;
+	font-family: 'Audiowide';	
+}
+#conteiner {
+	  display: flex;	
+	  flex-direction: row;
+	  flex-wrap: wrap;
+	  align-content: flex-start;
+	  margin: 5% 439px 3% 3%;
+      padding: 3%;
+      background:  rgb(255, 255, 255, 0.6);
+}
+
+#product1, #product2, #product3, #product4, #product5 {
+	position: relative;
+	display: flex;	
+	flex-direction: column;
+	text-align: center;
+	width: 280px;
+	height: 300px;
+	background: #FFFFFF;
+	border: 1px solid #020000;
+	margin: 3.6%;
+}
+
+#img1, #img2, #img3, #img4, #img5 {
+	width: 144px;
+    height:197px;   
+    background-size: 100%;
+    margin: 5% auto 5% auto;
+}
+
+#img1 {
+	background-image: url(https://guesseu.scene7.com/is/image/GuessEU/M63H24W7JF0-L302-ALTGHOST?wid=1500&fmt=jpeg&qlt=80&op_sharpen=0&op_usm=1.0,1.0,5,0&iccEmbed=0);
+}
+
+#img2 {
+	background-image: url(https://guesseu.scene7.com/is/image/GuessEU/FLGLO4FAL12-BEIBR?wid=700&amp;fmt=jpeg&amp;qlt=80&amp;op_sharpen=0&amp;op_usm=1.0,1.0,5,0&amp;iccEmbed=0);
+}
+
+#img3 {
+	background-image: url(https://guesseu.scene7.com/is/image/GuessEU/HWVG6216060-TAN?wid=700&amp;fmt=jpeg&amp;qlt=80&amp;op_sharpen=0&amp;op_usm=1.0,1.0,5,0&amp;iccEmbed=0);
+}
+
+#img4 {
+	background-image: url(http://guesseu.scene7.com/is/image/GuessEU/WC0001FMSWC-G5?wid=520&fmt=jpeg&qlt=80&op_sharpen=0&op_usm=1.0,1.0,5,0&iccEmbed=0);
+}
+
+#img5 {
+	background-image: url(https://guesseu.scene7.com/is/image/GuessEU/AW6308VIS03-SAP?wid=700&amp;fmt=jpeg&amp;qlt=80&amp;op_sharpen=0&amp;op_usm=1.0,1.0,5,0&amp;iccEmbed=0);
+}
+
+.basket{
+	border: 0.5px solid #020000;
+	width: 49px;
+	height: 41px;
+	background: url(../images/1.jpg) no-repeat 35% 35%;
+	background-size: 75%;
+	position: absolute;
+	top: 83%;
+	left: 78%;
+	cursor:pointer;
+}
+
+#price1, #price2, #price3, #price4, #price5 {
+	margin-top: 5%;
+} 
+
+#baskett {
+	position: absolute;
+	top: 1%;
+	right: 1%;
+	width: 393px;
+	height: 30px; 
+	background: #FFFFFF;
+	margin-bottom: 10px;
+	padding: 6px 1px 4px 10px;
+}
+
+.row {
+	width: 103%;
+	height: 30px;	
+	display: flex;
+	flex-direction: row;
+	font-size: 0.7em;
+	margin-top: 7px;
+	background:  rgb(255, 255, 255, 0.6);
+	margin-left: -10px;
+}
+
+.image {
+	width: 62px;
+	height: 30px;
+	background-size: 50% 100%;
+	background-repeat: no-repeat;
+
+}
+.names {
+	width: 160px;
+	height: 30px;
+	padding-top: 4px;
+}
+
+.prices {
+	width: 84px;
+	height: 30px;
+	text-align: center;
+	padding-top: 9px;
+}
+
+.clear {
+	width: 78px;
+	height: 25px;
+	border: 1px solid #020000;
+	cursor:pointer;
+	background: #D1D7D7;
+	cursor:pointer;
+	text-align: center;
+	padding-top: 7px;
+	margin-top: 3px;
+	margin-left: 8px;
+}
+
+#clear{
+	width: 78px;
+	height: 22px;
+	border: 1px solid #020000;
+	background: #F1CD33;
+	position: absolute;
+	top: 4px;
+	left: 80%;
+	cursor:pointer;
+	padding-top: 3px;
+}
+#money{
+	width: 91px;
+	height: 23px;
+	border: 0.5px solid #020000;
+	background: #D1D7D7;
+	position: absolute;
+	top: 4px;
+	left: 56%;
+	text-align: center;
+	padding-top: 3px;
+}
+
+.noneDisplay {
+	display: none;
+}
